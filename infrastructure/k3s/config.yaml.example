@@ -1,0 +1,5 @@
+# Copia este archivo a /etc/rancher/k3s/config.yaml.
+# La ruta local-path queda dentro del filesystem del host.
+node-name: homelab-local
+default-local-storage-path: /srv/homelab/k3s-storage
+write-kubeconfig-mode: "0600"

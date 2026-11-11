@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+*.secret.yaml
+*.secret.yml
+*.age
+*.key
+*.pem
+*.p12
+*.pfx
+kubeconfig*
+config-k3s-homelab
